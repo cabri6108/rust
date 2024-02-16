@@ -3,7 +3,7 @@
 fn main() {
     // Ownership konsepti
     let string1 = String::from("Merhaba"); // string1 sahibi
-    let string2 = string1; // string2 şimdi sahibi oldu, string1 kullanılamaz
+    let _string2 = string1; // _string2 şimdi sahibi oldu, string1 kullanılamaz
 
     // Borrowing konsepti
     let sayi = 42;
